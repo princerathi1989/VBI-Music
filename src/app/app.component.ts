@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vbi-music';
+  data = { columns: ['thumbnail', 'title', 'album'], flow: 'all' };
+  constructor() { }
 }
+
